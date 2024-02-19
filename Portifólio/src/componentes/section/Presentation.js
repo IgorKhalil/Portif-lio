@@ -1,6 +1,5 @@
 import styles from "./Presentation.module.css"
 import ButtonA from "../Elementos/ButtonA"
-import ButtonB from "../Elementos/ButtonB"
 
 function Presentation(){
     return(
