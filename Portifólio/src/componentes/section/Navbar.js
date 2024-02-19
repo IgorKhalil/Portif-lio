@@ -6,13 +6,13 @@ function Navbar(){
     return(
         <div className ={styles.navbar}>
             <ul>
-                <li>Apresentação</li>
-                <li>Habilidades</li>
-                <li>Projetos</li>
+                <li><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
+                <li><Nav.Link href='#Skills'>Habilidades</Nav.Link></li>
+                <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                <li> <FaGithub size={30} /> </li>
-                <li> <FaLinkedin size={30} /> </li>
+                <li> <a href='https://github.com/IgorKhalil'><FaGithub size={30} /> </a></li>
+                <li> <a href='https://www.linkedin.com/in/igor-silva-a97316279/'><FaLinkedin size={30} /> </a></li>
             </ul>
         </div>
     )

@@ -11,3 +11,6 @@
 .navbar li {
     margin: 10px;
 }
+.navbar a{
+    color: aliceblue !important;
+}

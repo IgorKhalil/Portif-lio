@@ -1,7 +1,7 @@
 
 function Projects(){
     return(
-        <div>
+        <div id = 'Projects'>
             <h1> aqui ficará os projetos</h1>
         </div>
     )
