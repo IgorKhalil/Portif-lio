@@ -6,8 +6,8 @@ import portifolio from "../../Image/projects/portifolio.svg"
 
 function Projects(){
     return(
-        <div className= {styles.projects} id = 'Projects'>
-            <section>
+        <div  id = 'Projects'>
+            <section className= {styles.projects}>
             <h1> Projetos</h1>
             <Card img={lpdnc} 
             title="LP-DNC" 
@@ -22,8 +22,7 @@ function Projects(){
             repo="https://github.com/IgorKhalil/Portifolio" 
             site="https://leadingpage-arquitetura.netlify.app/"/>
             </section>
-
-            <ButtonB class = "butaogeral" text="Acesse meu repositório" link="https://github.com/IgorKhalil?tab=repositories"/>
+            <ButtonB text="Acesse meu repositório" link="https://github.com/IgorKhalil?tab=repositories"/>
         </div>
     )
 }

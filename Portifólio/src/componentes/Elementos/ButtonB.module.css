@@ -1,12 +1,13 @@
 .btn{
     background: transparent;
-    color: aliceblue;
-    border: 2px solid aliceblue;
+    color: aquamarine;
+    border: 2px solid aquamarine;
     padding: 10px;
     border-radius: 10px;
     font-weight: bolder;
     margin-top: 15px;
     cursor: pointer;
+
 }
 
 .btn:hover{
